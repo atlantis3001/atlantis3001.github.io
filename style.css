@@ -1,0 +1,7 @@
+:root { --fond: #f4ebdd; --texte: #2b2d42; --lien: #1f4e79; }
+body { margin: 0; background: var(--fond); color: var(--texte); font: 17px/1.6 system-ui, sans-serif; }
+main { max-width: 42rem; margin: 0 auto; padding: 2rem 1rem; }
+h1 { display: flex; align-items: center; gap: 0.75rem; }
+h1 img { width: 64px; height: 64px; border-radius: 14px; }
+a { color: var(--lien); }
+footer { margin-top: 3rem; font-size: 0.9rem; opacity: 0.8; }
